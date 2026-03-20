@@ -29,6 +29,7 @@ description: 'NestJS common conventions'
 - Never use `new` to instantiate services or repositories
 - Use `private readonly` by default; `protected` only for subclasses
 - Avoid `@Inject()` with string tokens (except NestJS symbols like `APP_GUARD`)
+- When interface-based injection is required, use typed token constants or `Symbol`s declared in `<module>.constants.ts` (e.g., `USER_REPOSITORY_TOKEN`)
 
 ## Async/Await
 

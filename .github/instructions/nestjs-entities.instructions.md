@@ -20,7 +20,9 @@ description: 'TypeORM entity conventions for database models'
 ## Relationships
 
 - Always define both sides of a relationship (e.g., `@OneToMany` + `@ManyToOne`)
-- Use lazy loading only when necessary — prefer eager loading for small, predictable datasets
+- Prefer explicit relation loading in queries (`relations` or QueryBuilder) as the default strategy
+- Use eager loading only for small, frequently required relations with predictable access patterns
+- Use lazy loading only when explicitly justified, and monitor for N+1 query risk
 
 ## Schema Changes
 

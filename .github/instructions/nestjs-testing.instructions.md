@@ -27,6 +27,13 @@ description: 'Testing conventions for NestJS unit and e2e tests'
 - Use a real test database — do not mock the database layer in e2e tests
 - **Reproduce `main.ts` global config manually:** `Test.createTestingModule()` does not execute `main.ts`. Global pipes, filters, and interceptors must be applied explicitly in `beforeAll`: `app.useGlobalPipes(new ValidationPipe({ whitelist: true }))`
 
+## Mocking Matrix by Test Level
+
+- **Unit tests:** mock repositories, external HTTP clients, queue producers/consumers, mail providers, and cache clients
+- **Integration tests:** use real database + real ORM; external integrations (SMTP, external APIs, queues) should be mocked or stubbed
+- **E2E tests:** keep API + DB real; external boundaries should be deterministic (test doubles, local fake services, or sandbox endpoints)
+- Do not mock business services in e2e tests; validate end-to-end application behavior through HTTP
+
 ## General
 
 - Run only related tests during development; run the full suite before finishing

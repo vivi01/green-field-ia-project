@@ -1,6 +1,6 @@
 ---
 name: nestjs-best-practices
-description: "**ARCHITECTURE SKILL** — Mastering NestJS architecture patterns, dependency injection, error handling, security best practices, and distributed systems design. USE FOR: implementing new NestJS features (modules, controllers, services); reviewing code for architecture and security violations; refactoring legacy NestJS codebases; designing authentication layers, database abstractions, repository patterns, or event-driven architectures; optimizing performance and microservices patterns. DO NOT USE FOR: general TypeScript syntax; debugging runtime errors; infrastructure, DevOps, CI/CD; frontend code; configuration tasks; import/export questions; non-NestJS frameworks."
+description: "**ARCHITECTURE SKILL** — Mastering NestJS architecture patterns, dependency injection, error handling, security best practices, and distributed systems design. USE FOR: implementing new NestJS features (modules, controllers, services, etc.); reviewing code for architecture and security violations; refactoring legacy NestJS codebases; designing authentication layers, database abstractions, repository patterns, or event-driven architectures; optimizing performance and microservices patterns. DO NOT USE FOR: general TypeScript syntax; debugging runtime errors; infrastructure, DevOps, CI/CD; frontend code; configuration tasks; import/export questions; non-NestJS frameworks."
 license: MIT
 metadata:
   author: Kadajett
