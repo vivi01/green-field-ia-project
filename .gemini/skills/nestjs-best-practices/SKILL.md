@@ -1,10 +1,6 @@
 ---
 name: nestjs-best-practices
 description: "**ARCHITECTURE SKILL** — Mastering NestJS architecture patterns, dependency injection, error handling, security best practices, and distributed systems design. USE FOR: implementing new NestJS features (modules, controllers, services, etc.); reviewing code for architecture and security violations; refactoring legacy NestJS codebases; designing authentication layers, database abstractions, repository patterns, or event-driven architectures; optimizing performance and microservices patterns. DO NOT USE FOR: general TypeScript syntax; debugging runtime errors; infrastructure, DevOps, CI/CD; frontend code; configuration tasks; import/export questions; non-NestJS frameworks."
-license: MIT
-metadata:
-  author: Kadajett
-  version: "1.3.0"
 ---
 
 # NestJS Best Practices
@@ -129,14 +125,14 @@ Comprehensive best practices guide for NestJS applications. Contains 40 rules ac
 
 ## How to Use
 
-Read individual rule files for detailed explanations and code examples located in `.github/skills/nestjs-best-practices/rules/`:
+Read individual rule files for detailed explanations and code examples located in `.gemini/skills/nestjs-best-practices/references/`:
 
 ```
-rules/arch-avoid-circular-deps.md
-rules/security-validate-all-input.md
-rules/di-prefer-constructor-injection.md
-rules/error-use-exception-filters.md
-rules/_sections.md (complete architecture overview)
+references/arch-avoid-circular-deps.md
+references/security-validate-all-input.md
+references/di-prefer-constructor-injection.md
+references/error-use-exception-filters.md
+references/_sections.md (complete architecture overview)
 ```
 
 Each rule file contains:

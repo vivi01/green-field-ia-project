@@ -1,10 +1,6 @@
 ---
 name: generate-test-guide
-description: >
-  Analyzes a project's tech stack, searches the web for testing best practices,
-  asks the user clarifying questions, and generates a project-specific testing
-  multi-file skill at `.claude/skills/testing-guide-<project>/` with main SKILL.md and artifact/reference sub-files. Invoke with `/generate-test-guide <project-folder>`.
-disable-model-invocation: true
+description: Analyzes a project's tech stack, searches the web for testing best practices, asks the user clarifying questions, and generates a project-specific testing multi-file skill at .claude/skills/testing-guide-<project>/ with main SKILL.md and artifact/reference sub-files. Invoke with /generate-test-guide <project-folder>.
 ---
 
 # Generate Test Guide
@@ -19,7 +15,7 @@ You are a testing architecture expert. Your job is to analyze a project, researc
 
 ## Phase 1 — Project Analysis
 
-First, read `.claude/skills/generate-test-guide/testing-fundamentals.md` — this contains universal testing principles that serve as the foundation. Having these loaded early allows you to filter web research results against them in Phase 2.
+First, read `.gemini/skills/generate-test-guide/references/testing-fundamentals.md` — this contains universal testing principles that serve as the foundation. Having these loaded early allows you to filter web research results against them in Phase 2.
 
 Then explore the project at the given path. Collect the following:
 

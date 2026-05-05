@@ -1,10 +1,6 @@
 ---
 name: typeorm
 description: "**DATABASE SKILL** — Master TypeORM entity mapping, repository patterns, database design, and ORM integration with NestJS. USE FOR: designing entities and relationships; implementing repository abstractions; planning features involving database schema, data persistence, or ORM queries; refactoring database logic for testability and separation of concerns; optimizing queries and transactions. DO NOT USE FOR: SQL optimization; MongoDB or non-relational; DevOps or infrastructure; frontend logic."
-license: MIT
-metadata:
-  author: streamtube-team
-  version: "2.0.0"
 ---
 
 # TypeORM & NestJS Database Integration
@@ -40,11 +36,13 @@ Master TypeORM for building scalable, maintainable database layers in NestJS app
 
 Detailed guidance is organized by topic. Load specific sections as needed:
 
-1. **[Entity Design](./rules/orm-entities.md)** — Decorators, column types, primary keys, timestamps
-2. **[Relationships](./rules/orm-relationships.md)** — One-to-one, one-to-many, many-to-many patterns
-3. **[Repository Pattern](./rules/orm-repositories.md)** — Custom abstractions, query builders, testability
-4. **[Migrations](./rules/orm-migrations.md)** — Safe database schema changes, versioning
-5. **[Transactions](./rules/orm-transactions.md)** — ACID compliance, data consistency
-6. **[NestJS Integration](./rules/orm-nestjs-integration.md)** — Module setup, DI, service layer
-7. **[Data Source](./rules/orm-data-source.md)** — Connection configuration, pooling, production setup
-8. **[Best Practices](./rules/orm-best-practices.md)** — Patterns, anti-patterns, optimization strategies
+1. **[Entity Design](./references/orm-entities.md)** — Decorators, column types, primary keys, timestamps
+2. **[Relationships](./references/orm-relationships.md)** — One-to-one, one-to-many, many-to-many patterns
+3. **[Repository Pattern](./references/orm-repositories.md)** — Custom abstractions, query builders, testability
+4. **[Migrations](./references/orm-migrations.md)** — Safe database schema changes, versioning
+5. **[Transactions](./references/orm-transactions.md)** — ACID compliance, data consistency
+6. **[NestJS Integration](./references/orm-nestjs-integration.md)** — Module setup, DI, service layer
+7. **[Data Source](./references/orm-data-source.md)** — Connection configuration, pooling, production setup
+8. **[Best Practices](./references/orm-best-practices.md)** — Patterns, anti-patterns, optimization strategies
+
+See also the **[Index](./references/INDEX.md)** for quick navigation.

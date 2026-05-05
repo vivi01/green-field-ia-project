@@ -1,7 +1,6 @@
 ---
 name: research
 description: "Research technical options and generate a decisions document for a project phase. Use whenever the user needs to explore alternatives, understand trade-offs, or define technical paths before planning a phase — including variations like 'research options for phase X', 'what technologies to use in the phase', 'phase trade-offs', 'technical decisions for the phase', 'research the phase', or any mention of exploring alternatives before planning."
-disable-model-invocation: true
 ---
 
 # Research

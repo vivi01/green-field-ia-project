@@ -1,10 +1,6 @@
 ---
 name: testing-guide-nestjs-project
 description: "**TESTING SKILL** - NestJS unit, integration, and e2e testing conventions for StreamTube. USE FOR: writing tests, choosing test scope, setting up test modules, handling test data, and validating application behavior. DO NOT USE FOR: production runtime logic unrelated to tests."
-license: MIT
-metadata:
-  author: streamtube-team
-  version: "1.0.0"
 ---
 
 # NestJS Testing Guide
@@ -48,5 +44,5 @@ Skip this skill when you are:
 ## Related Rules
 
 - `.gemini/rules/nestjs-testing.md`
-- `.gemini/skills/nestjs-best-practices/rules/test-use-testing-module.md`
-- `.gemini/skills/nestjs-best-practices/rules/test-e2e-supertest.md`
+- `.gemini/skills/nestjs-best-practices/references/test-use-testing-module.md`
+- `.gemini/skills/nestjs-best-practices/references/test-e2e-supertest.md`
